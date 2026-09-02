@@ -1,0 +1,52 @@
+# PRODUCT_CREATE
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**availability** | [**STRING_32**](STRING_32.md) |  | [optional] [default to null]
+**barcode** | [**STRING_32**](STRING_32.md) |  | [optional] [default to null]
+**brand** | [**STRING_32**](STRING_32.md) |  | [optional] [default to null]
+**category_id** | [**STRING_32**](STRING_32.md) |  | [optional] [default to null]
+**condition** | [**STRING_32**](STRING_32.md) |  | [optional] [default to null]
+**default_ledger_account** | [**STRING_32**](STRING_32.md) |  | [optional] [default to null]
+**default_price** | [**STRING_32**](STRING_32.md) |  | [optional] [default to null]
+**default_price_formula_id** | [**UUID**](UUID.md) | References the price formula entity. | [optional] [default to null]
+**default_tax_rate** | [**STRING_32**](STRING_32.md) |  | [optional] [default to null]
+**description** | [**STRING_32**](STRING_32.md) |  | [optional] [default to null]
+**gtin** | [**STRING_32**](STRING_32.md) |  | [optional] [default to null]
+**height** | [**STRING_32**](STRING_32.md) |  | [optional] [default to null]
+**image_link** | [**STRING_32**](STRING_32.md) |  | [optional] [default to null]
+**images** | [**ANY**](.md) |  | [optional] [default to null]
+**is_taxable** | **BOOLEAN** |  | [optional] [default to null]
+**length** | [**STRING_32**](STRING_32.md) |  | [optional] [default to null]
+**link** | [**STRING_32**](STRING_32.md) |  | [optional] [default to null]
+**max_stock** | **INTEGER_64** | Target stock level used by reorder proposals. | [optional] [default to null]
+**min_stock** | **INTEGER_64** | Reorder point — when stock falls below this, a reorder is suggested. | [optional] [default to null]
+**mpn** | [**STRING_32**](STRING_32.md) |  | [optional] [default to null]
+**name** | [**STRING_32**](STRING_32.md) |  | [default to null]
+**package_height** | [**STRING_32**](STRING_32.md) |  | [optional] [default to null]
+**package_length** | [**STRING_32**](STRING_32.md) |  | [optional] [default to null]
+**package_weight_unit** | [**STRING_32**](STRING_32.md) |  | [optional] [default to null]
+**package_weight_value** | [**STRING_32**](STRING_32.md) |  | [optional] [default to null]
+**package_width** | [**STRING_32**](STRING_32.md) |  | [optional] [default to null]
+**product_code** | [**STRING_32**](STRING_32.md) |  | [default to null]
+**product_type** | [**STRING_32**](STRING_32.md) |  | [optional] [default to null]
+**purchase_price** | [**STRING_32**](STRING_32.md) |  | [optional] [default to null]
+**reorder_quantity** | **INTEGER_64** | Suggested purchase quantity when a reorder proposal is created. | [optional] [default to null]
+**sale_price** | [**STRING_32**](STRING_32.md) |  | [optional] [default to null]
+**shipping_price** | [**STRING_32**](STRING_32.md) |  | [optional] [default to null]
+**shipping_requires_insurance** | **BOOLEAN** |  | [optional] [default to null]
+**sku** | [**STRING_32**](STRING_32.md) |  | [default to null]
+**stock_quantity** | **INTEGER_64** |  | [optional] [default to null]
+**tags** | [**ANY**](.md) |  | [optional] [default to null]
+**tax_price** | [**STRING_32**](STRING_32.md) |  | [optional] [default to null]
+**track_batch** | **BOOLEAN** | Whether this product requires batch (Chargennummer) tracking. | [optional] [default to null]
+**track_serial** | **BOOLEAN** | Whether this product requires serial-number tracking. | [optional] [default to null]
+**unit** | [**ANY**](.md) |  | [optional] [default to null]
+**weight_unit** | [**STRING_32**](STRING_32.md) |  | [optional] [default to null]
+**weight_value** | [**STRING_32**](STRING_32.md) |  | [optional] [default to null]
+**width** | [**STRING_32**](STRING_32.md) |  | [optional] [default to null]
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+

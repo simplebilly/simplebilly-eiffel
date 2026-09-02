@@ -1,0 +1,13 @@
+# PACKING_COMPLETE_REQUEST
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**notes** | [**STRING_32**](STRING_32.md) |  | [optional] [default to null]
+**order_number** | [**STRING_32**](STRING_32.md) |  | [default to null]
+**shipment_id** | [**STRING_32**](STRING_32.md) |  | [optional] [default to null]
+**video_url** | [**STRING_32**](STRING_32.md) |  | [optional] [default to null]
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+
